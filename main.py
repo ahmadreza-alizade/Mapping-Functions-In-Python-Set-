@@ -1,5 +1,6 @@
 from collections import deque
 
+
 def pop(my_set, num=None):
   my_set.pop()
 
@@ -26,9 +27,9 @@ if __name__ == '__main__':
         operations.append(args)
             
     operation_map = {
-    'pop': pop,
-    'discard': discard,
-    'remove': remove
+      'pop': pop,
+      'discard': discard,
+      'remove': remove
     }
 
     for el in operations:
